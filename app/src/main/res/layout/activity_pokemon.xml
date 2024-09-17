@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="#F55A42"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:clipToPadding="false"
+    android:paddingHorizontal="16dp">
+
+    <!-- Pokemon Image -->
+    <ImageView
+        android:id="@+id/imgPokemon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:padding="8dp"
+        />
+
+    <!-- Pokemon Name -->
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:textSize="32sp"
+        android:textColor="#333333"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        />
+
+    <!-- Pokemon Type Image -->
+    <ImageView
+        android:id="@+id/imgType"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop" />
+</LinearLayout>
